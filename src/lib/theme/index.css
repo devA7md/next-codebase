@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Noto Kufi Arabic", Roboto, sans-serif;
+}
+
+@layer base {
+  @import "@/lib/theme/styles/app.theme.css";
+
+  .light {
+    --scrollbar: hsl(0, 0%, 86%);
+    --scrollbar-thumb: hsl(0, 0%, 50%);
+    --scrollbar-thumb-hover: hsl(0, 0%, 45%);
+  }
+
+  .dark {
+    --scrollbar: hsl(0, 0%, 8%);
+    --scrollbar-thumb: hsl(0, 0%, 20%);
+    --scrollbar-thumb-hover: hsl(0, 0%, 22%);
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 3px;
+    background-color: var();
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: var(--scrollbar-thumb-hover);
+  }
+}

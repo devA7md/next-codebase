@@ -1,0 +1,97 @@
+:root {
+  --background: hsl(0, 0%, 98%);
+  --foreground: hsl(240, 16%, 29%);
+
+  --primary: hsl(238, 84%, 50%);
+  --primary-foreground: hsl(210, 100%, 93%);
+
+  --secondary: hsl(210, 44%, 96%);
+  --secondary-foreground: hsl(222, 47.4%, 11.2%);
+
+  --accent: hsl(210 40% 96.1%);
+  --accent-foreground: hsl(222, 47%, 13%);
+
+  --destructive: hsl(0, 100%, 60%);
+  --destructive-foreground: hsl(0, 68%, 96%);
+
+  --success: hsl(123, 100%, 36%);
+  --success-foreground: hsl(0, 68%, 96%);
+
+  --info: hsl(58, 100%, 41%);
+  --info-foreground: hsl(56, 70%, 96%);
+
+  --muted: hsl(210, 44%, 96%);
+  --muted-foreground: hsl(215, 16%, 47%);
+
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(223, 45%, 12%);
+
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(221, 49%, 10%);
+
+  --sidebar: hsl(0, 0%, 23%);
+  --sidebar-foreground: hsl(0, 0%, 91%);
+  --sidebar-seected: hsl(210, 100%, 47%);
+
+  --border: hsl(216, 38%, 92%);
+  --input: hsl(0, 0%, 100%);
+  --input-focus: hsl(237, 53%, 92%);
+  --input-focus-offset: hsl(238, 77%, 81%);
+  --ring: hsl(216, 20%, 66%);
+
+  --scrollbar: hsl(0, 0%, 86%);
+  --scrollbar-thumb: hsl(0, 0%, 39%);
+  --scrollbar-thumb-hover: hsl(0, 0%, 29%);
+
+  --panel: hsl(0, 0%, 95%);
+
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: hsl(0, 0%, 17%);
+  --foreground: hsl(0, 0%, 75%);
+
+  --primary: hsl(210, 100%, 41%);
+  --primary-foreground: hsl(210, 100%, 93%);
+
+  --secondary: hsl(210, 44%, 96%);
+  --secondary-foreground: hsl(222, 47.4%, 11.2%);
+
+  --accent: hsl(0, 0%, 22%);
+  --accent-foreground: hsl(0, 0%, 73%);
+
+  --destructive: hsl(0, 69%, 67%);
+  --destructive-foreground: hsl(0, 100%, 95%);
+
+  --success: hsl(123, 100%, 36%);
+  --success-foreground: hsl(0, 68%, 96%);
+
+  --info: hsl(58, 100%, 41%);
+  --info-foreground: hsl(56, 70%, 96%);
+
+  --muted: hsl(0, 0%, 5%);
+  --muted-foreground: hsl(0, 0%, 42%);
+
+  --card: hsl(0, 0%, 15%);
+  --card-foreground: hsl(0, 0%, 76%);
+
+  --popover: hsl(0, 0%, 20%);
+  --popover-foreground: hsl(0, 0%, 76%);
+
+  --sidebar: hsl(0, 0%, 15%);
+  --sidebar-foreground: hsl(0, 0%, 75%);
+  --sidebar-seected: hsl(0, 0%, 94%);
+
+  --border: hsl(0, 0%, 27%);
+  --input: hsl(0, 0%, 17%);
+  --input-focus: hsl(237, 53%, 92%);
+  --input-focus-offset: hsl(238, 77%, 81%);
+  --ring: hsl(216, 20%, 66%);
+
+  --scrollbar: hsl(0, 0%, 24%);
+  --scrollbar-thumb: hsl(0, 0%, 9%);
+  --scrollbar-thumb-hover: hsl(0, 0%, 17%);
+
+  --panel: hsl(0, 0%, 25%);
+}
